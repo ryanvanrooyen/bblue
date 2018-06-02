@@ -1,0 +1,8 @@
+
+cd ~
+git clone https://github.com/ryanvanrooyen/.vim.git
+git clone https://github.com/ryanvanrooyen/.zsh.git
+ln -s .zsh/.zshrc .zshrc
+ln -s .zsh/.tmux.conf .tmux.conf
+echo "PROMPT_CHAR='bblue>'" > .zshlocal
+
